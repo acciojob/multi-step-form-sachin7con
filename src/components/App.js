@@ -1,6 +1,6 @@
-// SGN 
-import React, { useState } from "react";
-import './../styles/App.css';
+// SGN { useState } from "react";
+import './../s
+import React, tyles/App.css';
 import Step from './Step';
 
 const App = () => {

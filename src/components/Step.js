@@ -50,12 +50,12 @@ const Step = ({ currentStep, onNext, onPrev, onSubmit }) => {
 
           <label>
             First Name:
-            <input type="text" id="first_name" placeholder="" />
+            <input type="text" name="first_name" id="first_name" placeholder="" />
           </label>
           <br />
           <label>
             Last Name:
-            <input type="text" id="last_name" placeholder="" />
+            <input type="text" name="last_name" id="last_name" placeholder="" />
           </label>
           <br />
           <button onClick={onNext}>Next</button>
@@ -67,7 +67,7 @@ const Step = ({ currentStep, onNext, onPrev, onSubmit }) => {
             <h2>Car Details</h2>
           <label>
             Car Model:
-            <input type="text" id="model" placeholder="" />
+            <input type="text" name="model" id="model" placeholder="" />
           </label>
           <br />
           <label>
