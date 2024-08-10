@@ -1,7 +1,8 @@
-// SGN { useState } from "react";
-import './../s
-import React, tyles/App.css';
+// SGN 
+import React, { useState } from 'react';
+import './styles/App.css'; // Ensure the correct path
 import Step from './Step';
+
 
 const App = () => {
     const[currentStep, setCurrentStep] = useState(1);
